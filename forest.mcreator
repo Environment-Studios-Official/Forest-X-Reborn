@@ -11395,7 +11395,7 @@
     {
       "name": "CopperLadder",
       "type": "block",
-      "sortid": 163,
+      "sortid": 164,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_ladder",
@@ -11412,7 +11412,7 @@
     {
       "name": "CopperLadderUsloviieRazmieshchieniiaBloka",
       "type": "procedure",
-      "sortid": 664,
+      "sortid": 678,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_ladder_usloviie_razmieshchieniia_bloka",
@@ -11445,7 +11445,7 @@
     {
       "name": "ExposedCopperLadder",
       "type": "block",
-      "sortid": 164,
+      "sortid": 165,
       "compiles": true,
       "locked_code": false,
       "registry_name": "exposed_copper_ladder",
@@ -11462,7 +11462,7 @@
     {
       "name": "WeatheredCopperLadder",
       "type": "block",
-      "sortid": 165,
+      "sortid": 166,
       "compiles": true,
       "locked_code": false,
       "registry_name": "weathered_copper_ladder",
@@ -11479,7 +11479,7 @@
     {
       "name": "OxidizedCopperLadder",
       "type": "block",
-      "sortid": 166,
+      "sortid": 167,
       "compiles": true,
       "locked_code": false,
       "registry_name": "oxidized_copper_ladder",
@@ -11496,7 +11496,7 @@
     {
       "name": "CopperLadderObnovlieniieTika",
       "type": "procedure",
-      "sortid": 665,
+      "sortid": 679,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_ladder_obnovlieniie_tika",
@@ -11528,7 +11528,7 @@
     {
       "name": "ExposedCopperLadderObnovlieniieTika",
       "type": "procedure",
-      "sortid": 666,
+      "sortid": 680,
       "compiles": true,
       "locked_code": false,
       "registry_name": "exposed_copper_ladder_obnovlieniie_tika",
@@ -11560,7 +11560,7 @@
     {
       "name": "WeatheredCopperLadderObnovlieniieTika",
       "type": "procedure",
-      "sortid": 667,
+      "sortid": 681,
       "compiles": true,
       "locked_code": false,
       "registry_name": "weathered_copper_ladder_obnovlieniie_tika",
@@ -11592,7 +11592,7 @@
     {
       "name": "WaxedCopperLadder",
       "type": "block",
-      "sortid": 167,
+      "sortid": 168,
       "compiles": true,
       "locked_code": false,
       "registry_name": "waxed_copper_ladder",
@@ -11609,7 +11609,7 @@
     {
       "name": "WaxedExposedCopperLadder",
       "type": "block",
-      "sortid": 168,
+      "sortid": 169,
       "compiles": true,
       "locked_code": false,
       "registry_name": "waxed_exposed_copper_ladder",
@@ -11626,7 +11626,7 @@
     {
       "name": "WaxedWeatheredCopperLadder",
       "type": "block",
-      "sortid": 169,
+      "sortid": 170,
       "compiles": true,
       "locked_code": false,
       "registry_name": "waxed_weathered_copper_ladder",
@@ -11643,7 +11643,7 @@
     {
       "name": "WaxedOxidizedCopperLadder",
       "type": "block",
-      "sortid": 170,
+      "sortid": 171,
       "compiles": true,
       "locked_code": false,
       "registry_name": "waxed_oxidized_copper_ladder",
@@ -11734,7 +11734,7 @@
     {
       "name": "CopperLadderCraft",
       "type": "recipe",
-      "sortid": 671,
+      "sortid": 687,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_ladder_craft",
@@ -11762,7 +11762,7 @@
     {
       "name": "StripWax",
       "type": "procedure",
-      "sortid": 674,
+      "sortid": 689,
       "compiles": true,
       "locked_code": false,
       "registry_name": "strip_wax",
@@ -11798,7 +11798,7 @@
     {
       "name": "StripOxid",
       "type": "procedure",
-      "sortid": 675,
+      "sortid": 690,
       "compiles": true,
       "locked_code": false,
       "registry_name": "strip_oxid",
@@ -11834,7 +11834,7 @@
     {
       "name": "WaxCopperLadder",
       "type": "procedure",
-      "sortid": 676,
+      "sortid": 691,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wax_copper_ladder",
@@ -11866,6 +11866,525 @@
         ]
       },
       "path": "~/CopperLadder"
+    },
+    {
+      "name": "CharredWood",
+      "type": "block",
+      "sortid": 289,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charred_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/forest/models/item/charred_wood.json",
+          "src/main/java/ru/power_umc/forestxreborn/block/CharredWoodBlock.java",
+          "src/main/resources/assets/forest/models/block/charred_wood.json",
+          "src/main/resources/assets/forest/blockstates/charred_wood.json"
+        ]
+      },
+      "path": "~/WoodSets/CharredWoodSet"
+    },
+    {
+      "name": "CharredLog",
+      "type": "block",
+      "sortid": 288,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charred_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/forest/blockstates/charred_log.json",
+          "src/main/java/ru/power_umc/forestxreborn/block/CharredLogBlock.java",
+          "src/main/resources/assets/forest/models/block/charred_log.json",
+          "src/main/resources/assets/forest/models/item/charred_log.json"
+        ]
+      },
+      "path": "~/WoodSets/CharredWoodSet"
+    },
+    {
+      "name": "CharredPlanks",
+      "type": "block",
+      "sortid": 292,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charred_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/forest/models/item/charred_planks.json",
+          "src/main/resources/assets/forest/blockstates/charred_planks.json",
+          "src/main/java/ru/power_umc/forestxreborn/block/CharredPlanksBlock.java",
+          "src/main/resources/assets/forest/models/block/charred_planks.json"
+        ]
+      },
+      "path": "~/WoodSets/CharredWoodSet"
+    },
+    {
+      "name": "CharredStairs",
+      "type": "block",
+      "sortid": 293,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charred_stairs",
+      "metadata": {
+        "files": [
+          "src/main/java/ru/power_umc/forestxreborn/block/CharredStairsBlock.java",
+          "src/main/resources/assets/forest/blockstates/charred_stairs.json",
+          "src/main/resources/assets/forest/models/block/charred_stairs_inner.json",
+          "src/main/resources/assets/forest/models/item/charred_stairs.json",
+          "src/main/resources/assets/forest/models/block/charred_stairs_outer.json",
+          "src/main/resources/assets/forest/models/block/charred_stairs.json"
+        ]
+      },
+      "path": "~/WoodSets/CharredWoodSet"
+    },
+    {
+      "name": "CharredSlab",
+      "type": "block",
+      "sortid": 294,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charred_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/forest/models/block/charred_slab_full.json",
+          "src/main/resources/assets/forest/models/block/charred_slab.json",
+          "src/main/java/ru/power_umc/forestxreborn/block/CharredSlabBlock.java",
+          "src/main/resources/assets/forest/models/item/charred_slab.json",
+          "src/main/resources/assets/forest/blockstates/charred_slab.json",
+          "src/main/resources/assets/forest/models/block/charred_slab_top.json"
+        ]
+      },
+      "path": "~/WoodSets/CharredWoodSet"
+    },
+    {
+      "name": "CharredFence",
+      "type": "block",
+      "sortid": 295,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charred_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/forest/models/block/charred_fence_inventory.json",
+          "src/main/resources/assets/forest/models/item/charred_fence.json",
+          "src/main/java/ru/power_umc/forestxreborn/block/CharredFenceBlock.java",
+          "src/main/resources/assets/forest/models/block/charred_fence.json",
+          "src/main/resources/assets/forest/blockstates/charred_fence.json",
+          "src/main/resources/assets/forest/models/block/charred_fence_post.json"
+        ]
+      },
+      "path": "~/WoodSets/CharredWoodSet"
+    },
+    {
+      "name": "CharredFenceGate",
+      "type": "block",
+      "sortid": 296,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charred_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/forest/models/item/charred_fence_gate.json",
+          "src/main/java/ru/power_umc/forestxreborn/block/CharredFenceGateBlock.java",
+          "src/main/resources/assets/forest/models/block/charred_fence_gate_open.json",
+          "src/main/resources/assets/forest/blockstates/charred_fence_gate.json",
+          "src/main/resources/assets/forest/models/block/charred_fence_gate_wall.json",
+          "src/main/resources/assets/forest/models/block/charred_fence_gate_wall_open.json",
+          "src/main/resources/assets/forest/models/block/charred_fence_gate.json"
+        ]
+      },
+      "path": "~/WoodSets/CharredWoodSet"
+    },
+    {
+      "name": "CharredPressurePlate",
+      "type": "block",
+      "sortid": 304,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charred_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/forest/blockstates/charred_pressure_plate.json",
+          "src/main/resources/assets/forest/models/block/charred_pressure_plate_down.json",
+          "src/main/resources/assets/forest/models/item/charred_pressure_plate.json",
+          "src/main/java/ru/power_umc/forestxreborn/block/CharredPressurePlateBlock.java",
+          "src/main/resources/assets/forest/models/block/charred_pressure_plate.json"
+        ]
+      },
+      "path": "~/WoodSets/CharredWoodSet"
+    },
+    {
+      "name": "CharredButton",
+      "type": "block",
+      "sortid": 299,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charred_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/forest/models/item/charred_button.json",
+          "src/main/java/ru/power_umc/forestxreborn/block/CharredButtonBlock.java",
+          "src/main/resources/assets/forest/models/block/charred_button.json",
+          "src/main/resources/assets/forest/models/block/charred_button_pressed.json",
+          "src/main/resources/assets/forest/models/block/charred_button_inventory.json",
+          "src/main/resources/assets/forest/blockstates/charred_button.json"
+        ]
+      },
+      "path": "~/WoodSets/CharredWoodSet"
+    },
+    {
+      "name": "CharredItemsTag",
+      "type": "tag",
+      "sortid": 692,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charred_items_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/charred_log.json"
+        ]
+      },
+      "path": "~/WoodSets/CharredWoodSet"
+    },
+    {
+      "name": "CharredWoodRecipe",
+      "type": "recipe",
+      "sortid": 693,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charred_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forest/recipes/charred_wood_recipe.json"
+        ]
+      },
+      "path": "~/WoodSets/CharredWoodSet"
+    },
+    {
+      "name": "CharredPlanksRecipe",
+      "type": "recipe",
+      "sortid": 694,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charred_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forest/recipes/charred_planks_recipe.json"
+        ]
+      },
+      "path": "~/WoodSets/CharredWoodSet"
+    },
+    {
+      "name": "CharredStairsRecipe",
+      "type": "recipe",
+      "sortid": 695,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charred_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forest/recipes/charred_stairs_recipe.json"
+        ]
+      },
+      "path": "~/WoodSets/CharredWoodSet"
+    },
+    {
+      "name": "CharredSlabRecipe",
+      "type": "recipe",
+      "sortid": 696,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charred_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forest/recipes/charred_slab_recipe.json"
+        ]
+      },
+      "path": "~/WoodSets/CharredWoodSet"
+    },
+    {
+      "name": "CharredFenceRecipe",
+      "type": "recipe",
+      "sortid": 697,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charred_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forest/recipes/charred_fence_recipe.json"
+        ]
+      },
+      "path": "~/WoodSets/CharredWoodSet"
+    },
+    {
+      "name": "CharredFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 698,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charred_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forest/recipes/charred_fence_gate_recipe.json"
+        ]
+      },
+      "path": "~/WoodSets/CharredWoodSet"
+    },
+    {
+      "name": "CharredPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 699,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charred_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forest/recipes/charred_pressure_plate_recipe.json"
+        ]
+      },
+      "path": "~/WoodSets/CharredWoodSet"
+    },
+    {
+      "name": "CharredButtonRecipe",
+      "type": "recipe",
+      "sortid": 700,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charred_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forest/recipes/charred_button_recipe.json"
+        ]
+      },
+      "path": "~/WoodSets/CharredWoodSet"
+    },
+    {
+      "name": "CharredStickRecipe",
+      "type": "recipe",
+      "sortid": 701,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charred_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forest/recipes/charred_stick_recipe.json"
+        ]
+      },
+      "path": "~/WoodSets/CharredWoodSet"
+    },
+    {
+      "name": "CharredParquet",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charred_parquet",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/forest/models/block/charred_parquet.json",
+          "src/main/java/ru/power_umc/forestxreborn/block/CharredParquetBlock.java",
+          "src/main/resources/assets/forest/blockstates/charred_parquet.json",
+          "src/main/resources/assets/forest/models/item/charred_parquet.json"
+        ]
+      },
+      "path": "~/Parquet"
+    },
+    {
+      "name": "CharredParquetCraft",
+      "type": "recipe",
+      "sortid": 702,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charred_parquet_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forest/recipes/charred_parquet_craft.json"
+        ]
+      },
+      "path": "~/Parquet"
+    },
+    {
+      "name": "StrippedCharredWood",
+      "type": "block",
+      "sortid": 290,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_charred_wood",
+      "metadata": {
+        "files": [
+          "src/main/java/ru/power_umc/forestxreborn/block/StrippedCharredWoodBlock.java",
+          "src/main/resources/assets/forest/blockstates/stripped_charred_wood.json",
+          "src/main/resources/assets/forest/models/item/stripped_charred_wood.json",
+          "src/main/resources/assets/forest/models/block/stripped_charred_wood.json"
+        ]
+      },
+      "path": "~/WoodSets/CharredWoodSet"
+    },
+    {
+      "name": "StrippedCharredLog",
+      "type": "block",
+      "sortid": 291,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_charred_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/forest/blockstates/stripped_charred_log.json",
+          "src/main/resources/assets/forest/models/block/stripped_charred_log.json",
+          "src/main/java/ru/power_umc/forestxreborn/block/StrippedCharredLogBlock.java",
+          "src/main/resources/assets/forest/models/item/stripped_charred_log.json"
+        ]
+      },
+      "path": "~/WoodSets/CharredWoodSet"
+    },
+    {
+      "name": "CharredDoor",
+      "type": "block",
+      "sortid": 297,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charred_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/forest/blockstates/charred_door.json",
+          "src/main/java/ru/power_umc/forestxreborn/block/CharredDoorBlock.java",
+          "src/main/resources/assets/forest/models/block/charred_door_top_right_open.json",
+          "src/main/resources/assets/forest/models/block/charred_door_bottom_left.json",
+          "src/main/resources/assets/forest/models/item/charred_door.json",
+          "src/main/resources/assets/forest/models/block/charred_door_bottom_right.json",
+          "src/main/resources/assets/forest/models/block/charred_door_bottom_right_open.json",
+          "src/main/resources/assets/forest/models/block/charred_door_top_left.json",
+          "src/main/resources/assets/forest/models/block/charred_door_top_right.json",
+          "src/main/resources/assets/forest/models/block/charred_door_bottom_left_open.json",
+          "src/main/resources/assets/forest/models/block/charred_door_top_left_open.json"
+        ]
+      },
+      "path": "~/WoodSets/CharredWoodSet"
+    },
+    {
+      "name": "CharredTrapdoor",
+      "type": "block",
+      "sortid": 298,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charred_trapdoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/forest/models/block/charred_trapdoor_top.json",
+          "src/main/java/ru/power_umc/forestxreborn/block/CharredTrapdoorBlock.java",
+          "src/main/resources/assets/forest/models/item/charred_trapdoor.json",
+          "src/main/resources/assets/forest/blockstates/charred_trapdoor.json",
+          "src/main/resources/assets/forest/models/block/charred_trapdoor_open.json",
+          "src/main/resources/assets/forest/models/block/charred_trapdoor.json"
+        ]
+      },
+      "path": "~/WoodSets/CharredWoodSet"
+    },
+    {
+      "name": "CharredDoorCraft",
+      "type": "recipe",
+      "sortid": 703,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charred_door_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forest/recipes/charred_door_craft.json"
+        ]
+      },
+      "path": "~/WoodSets/CharredWoodSet"
+    },
+    {
+      "name": "CharredTrapdoorCraft",
+      "type": "recipe",
+      "sortid": 704,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charred_trapdoor_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forest/recipes/charred_trapdoor_craft.json"
+        ]
+      },
+      "path": "~/WoodSets/CharredWoodSet"
+    },
+    {
+      "name": "StrippedCharredWoodCraft",
+      "type": "recipe",
+      "sortid": 706,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_charred_wood_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forest/recipes/stripped_charred_wood_craft.json"
+        ]
+      },
+      "path": "~/WoodSets/CharredWoodSet"
+    },
+    {
+      "name": "CharredTreeFeatureDopolnitielnoieUsloviieGienieratsii",
+      "type": "procedure",
+      "sortid": 707,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charred_tree_feature_dopolnitielnoie_usloviie_gienieratsii",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/ru/power_umc/forestxreborn/procedures/CharredTreeFeatureDopolnitielnoieUsloviieGienieratsiiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Biomes"
+    },
+    {
+      "name": "CharredTreeFeature",
+      "type": "feature",
+      "sortid": 708,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charred_tree_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forest/worldgen/placed_feature/charred_tree_feature.json",
+          "src/main/resources/data/forest/forge/biome_modifier/charred_tree_feature_biome_modifier.json",
+          "src/main/resources/data/forest/worldgen/configured_feature/charred_tree_feature.json",
+          "src/main/java/ru/power_umc/forestxreborn/world/features/CharredTreeFeatureFeature.java"
+        ]
+      },
+      "path": "~/Biomes"
+    },
+    {
+      "name": "CharredForest",
+      "type": "biome",
+      "sortid": 709,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charred_forest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forest/worldgen/biome/charred_forest.json"
+        ]
+      },
+      "path": "~/Biomes"
     },
     {
       "name": "MixedForestTrees",
@@ -13203,6 +13722,10 @@
           },
           {
             "name": "Eucalyptus Wood Set",
+            "children": []
+          },
+          {
+            "name": "CharredWoodSet",
             "children": []
           }
         ]

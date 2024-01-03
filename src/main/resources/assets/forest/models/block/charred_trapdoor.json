@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_orientable_trapdoor_bottom",
+  "textures": {
+    "texture": "forest:block/charred_trapdoor",
+    "particle": "forest:block/charred_trapdoor"
+  },
+  "render_type": "cutout"
+}

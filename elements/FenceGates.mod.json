@@ -58,6 +58,9 @@
       },
       {
         "value": "CUSTOM:MulberryFenceGate"
+      },
+      {
+        "value": "CUSTOM:CharredFenceGate"
       }
     ],
     "functions": [],

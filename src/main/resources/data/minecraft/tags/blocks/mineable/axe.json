@@ -13,6 +13,7 @@
     "forest:cherry_parquet",
     "forest:mulberry_parquet",
     "forest:eucalyptus_parquet",
+    "forest:charred_parquet",
     "forest:white_planks",
     "forest:light_gray_planks",
     "forest:gray_planks",
@@ -107,6 +108,13 @@
     "forest:stripped_eucalyptus_wood",
     "forest:eucalyptus_planks",
     "forest:eucalyptus_door",
-    "forest:eucalyptus_trapdoor"
+    "forest:eucalyptus_trapdoor",
+    "forest:charred_log",
+    "forest:charred_wood",
+    "forest:stripped_charred_wood",
+    "forest:stripped_charred_log",
+    "forest:charred_planks",
+    "forest:charred_door",
+    "forest:charred_trapdoor"
   ]
 }

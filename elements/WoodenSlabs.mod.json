@@ -55,6 +55,9 @@
       },
       {
         "value": "CUSTOM:YellowSlab"
+      },
+      {
+        "value": "CUSTOM:CharredSlab"
       }
     ],
     "functions": [],

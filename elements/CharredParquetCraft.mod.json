@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 5,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CharredPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CharredPlanks"
+      },
+      {
+        "value": "CUSTOM:CharredPlanks"
+      },
+      {
+        "value": "CUSTOM:CharredPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CharredPlanks"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CharredParquet"
+    },
+    "name": "charred_parquet_craft",
+    "namespace": "mod"
+  }
+}

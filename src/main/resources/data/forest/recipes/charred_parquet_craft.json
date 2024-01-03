@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aaa",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "forest:charred_planks"
+    }
+  },
+  "result": {
+    "item": "forest:charred_parquet",
+    "count": 5
+  }
+}

@@ -16,6 +16,12 @@
       },
       {
         "value": "CUSTOM:StrippedMulberryLog"
+      },
+      {
+        "value": "CUSTOM:CharredLog"
+      },
+      {
+        "value": "CUSTOM:StrippedCharredLog"
       }
     ],
     "functions": [],

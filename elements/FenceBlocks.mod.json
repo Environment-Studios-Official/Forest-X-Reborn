@@ -61,6 +61,9 @@
       },
       {
         "value": "Blocks.CHERRY_FENCE"
+      },
+      {
+        "value": "CUSTOM:CharredFence"
       }
     ],
     "functions": [],

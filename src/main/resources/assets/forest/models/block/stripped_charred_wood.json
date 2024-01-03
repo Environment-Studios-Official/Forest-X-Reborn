@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "forest:block/stripped_charred_log_side",
+    "particle": "forest:block/stripped_charred_log_side"
+  },
+  "render_type": "solid"
+}

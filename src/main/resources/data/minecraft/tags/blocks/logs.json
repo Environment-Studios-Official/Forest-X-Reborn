@@ -2,8 +2,10 @@
   "replace": false,
   "values": [
     "forest:eucalyptus_log",
-    "forest:stripped_eucalyptus_log",
+    "forest:charred_log",
+    "forest:stripped_charred_log",
     "forest:mulberry_log",
+    "forest:stripped_eucalyptus_log",
     "forest:stripped_mulberry_log"
   ]
 }

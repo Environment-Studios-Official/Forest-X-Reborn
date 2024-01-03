@@ -8,12 +8,17 @@ import ru.power_umc.forestxreborn.ForestMod;
 
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
 
+@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class ForestModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, ForestMod.MODID);
 	public static final RegistryObject<CreativeModeTab> TREES = REGISTRY.register("trees",
@@ -51,6 +56,18 @@ public class ForestModTabs {
 				tabData.accept(ForestModBlocks.EUCALYPTUS_TRAPDOOR.get().asItem());
 				tabData.accept(ForestModBlocks.EUCALYPTUS_PRESSURE_PLATE.get().asItem());
 				tabData.accept(ForestModBlocks.EUCALYPTUS_BUTTON.get().asItem());
+				tabData.accept(ForestModBlocks.CHARRED_LOG.get().asItem());
+				tabData.accept(ForestModBlocks.CHARRED_WOOD.get().asItem());
+				tabData.accept(ForestModBlocks.STRIPPED_CHARRED_WOOD.get().asItem());
+				tabData.accept(ForestModBlocks.STRIPPED_CHARRED_LOG.get().asItem());
+				tabData.accept(ForestModBlocks.CHARRED_PLANKS.get().asItem());
+				tabData.accept(ForestModBlocks.CHARRED_STAIRS.get().asItem());
+				tabData.accept(ForestModBlocks.CHARRED_SLAB.get().asItem());
+				tabData.accept(ForestModBlocks.CHARRED_FENCE.get().asItem());
+				tabData.accept(ForestModBlocks.CHARRED_FENCE_GATE.get().asItem());
+				tabData.accept(ForestModBlocks.CHARRED_DOOR.get().asItem());
+				tabData.accept(ForestModBlocks.CHARRED_TRAPDOOR.get().asItem());
+				tabData.accept(ForestModBlocks.CHARRED_BUTTON.get().asItem());
 			})
 
 					.build());
@@ -78,6 +95,7 @@ public class ForestModTabs {
 				tabData.accept(ForestModBlocks.CHERRY_PARQUET.get().asItem());
 				tabData.accept(ForestModBlocks.MULBERRY_PARQUET.get().asItem());
 				tabData.accept(ForestModBlocks.EUCALYPTUS_PARQUET.get().asItem());
+				tabData.accept(ForestModBlocks.CHARRED_PARQUET.get().asItem());
 				tabData.accept(ForestModBlocks.MARBLE.get().asItem());
 				tabData.accept(ForestModBlocks.MARBLE_BRICKS.get().asItem());
 				tabData.accept(ForestModBlocks.POLISHED_MARBLE.get().asItem());
@@ -349,4 +367,12 @@ public class ForestModTabs {
 			})
 
 					.build());
+
+	@SubscribeEvent
+	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
+
+		if (tabData.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
+			tabData.accept(ForestModBlocks.CHARRED_PRESSURE_PLATE.get().asItem());
+		}
+	}
 }

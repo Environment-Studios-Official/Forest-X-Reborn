@@ -92,6 +92,7 @@ public class ForestModItems {
 	public static final RegistryObject<Item> CHERRY_PARQUET = block(ForestModBlocks.CHERRY_PARQUET);
 	public static final RegistryObject<Item> MULBERRY_PARQUET = block(ForestModBlocks.MULBERRY_PARQUET);
 	public static final RegistryObject<Item> EUCALYPTUS_PARQUET = block(ForestModBlocks.EUCALYPTUS_PARQUET);
+	public static final RegistryObject<Item> CHARRED_PARQUET = block(ForestModBlocks.CHARRED_PARQUET);
 	public static final RegistryObject<Item> MARBLE = block(ForestModBlocks.MARBLE);
 	public static final RegistryObject<Item> MARBLE_BRICKS = block(ForestModBlocks.MARBLE_BRICKS);
 	public static final RegistryObject<Item> POLISHED_MARBLE = block(ForestModBlocks.POLISHED_MARBLE);
@@ -358,6 +359,19 @@ public class ForestModItems {
 	public static final RegistryObject<Item> EUCALYPTUS_TRAPDOOR = block(ForestModBlocks.EUCALYPTUS_TRAPDOOR);
 	public static final RegistryObject<Item> EUCALYPTUS_PRESSURE_PLATE = block(ForestModBlocks.EUCALYPTUS_PRESSURE_PLATE);
 	public static final RegistryObject<Item> EUCALYPTUS_BUTTON = block(ForestModBlocks.EUCALYPTUS_BUTTON);
+	public static final RegistryObject<Item> CHARRED_LOG = block(ForestModBlocks.CHARRED_LOG);
+	public static final RegistryObject<Item> CHARRED_WOOD = block(ForestModBlocks.CHARRED_WOOD);
+	public static final RegistryObject<Item> STRIPPED_CHARRED_WOOD = block(ForestModBlocks.STRIPPED_CHARRED_WOOD);
+	public static final RegistryObject<Item> STRIPPED_CHARRED_LOG = block(ForestModBlocks.STRIPPED_CHARRED_LOG);
+	public static final RegistryObject<Item> CHARRED_PLANKS = block(ForestModBlocks.CHARRED_PLANKS);
+	public static final RegistryObject<Item> CHARRED_STAIRS = block(ForestModBlocks.CHARRED_STAIRS);
+	public static final RegistryObject<Item> CHARRED_SLAB = block(ForestModBlocks.CHARRED_SLAB);
+	public static final RegistryObject<Item> CHARRED_FENCE = block(ForestModBlocks.CHARRED_FENCE);
+	public static final RegistryObject<Item> CHARRED_FENCE_GATE = block(ForestModBlocks.CHARRED_FENCE_GATE);
+	public static final RegistryObject<Item> CHARRED_DOOR = doubleBlock(ForestModBlocks.CHARRED_DOOR);
+	public static final RegistryObject<Item> CHARRED_TRAPDOOR = block(ForestModBlocks.CHARRED_TRAPDOOR);
+	public static final RegistryObject<Item> CHARRED_BUTTON = block(ForestModBlocks.CHARRED_BUTTON);
+	public static final RegistryObject<Item> CHARRED_PRESSURE_PLATE = block(ForestModBlocks.CHARRED_PRESSURE_PLATE);
 	public static final RegistryObject<Item> SAPPHIRE = REGISTRY.register("sapphire", () -> new SapphireItem());
 	public static final RegistryObject<Item> SAPPHIRE_ORE = block(ForestModBlocks.SAPPHIRE_ORE);
 	public static final RegistryObject<Item> SAPPHIRE_BLOCK = block(ForestModBlocks.SAPPHIRE_BLOCK);

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "forest:block/charred_parquet",
+    "up": "forest:block/charred_parquet",
+    "north": "forest:block/charred_parquet",
+    "east": "forest:block/charred_parquet",
+    "south": "forest:block/charred_parquet",
+    "west": "forest:block/charred_parquet",
+    "particle": "forest:block/charred_parquet"
+  },
+  "render_type": "solid"
+}

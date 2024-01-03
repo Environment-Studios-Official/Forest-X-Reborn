@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "door",
+  "category": "building",
+  "pattern": [
+    "aa",
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "forest:charred_planks"
+    }
+  },
+  "result": {
+    "item": "forest:charred_door",
+    "count": 3
+  }
+}

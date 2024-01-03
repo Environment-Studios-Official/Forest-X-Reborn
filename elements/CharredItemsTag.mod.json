@@ -1,0 +1,21 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:CharredWood"
+      },
+      {
+        "value": "CUSTOM:CharredLog"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "charred_log",
+    "namespace": "forge"
+  }
+}

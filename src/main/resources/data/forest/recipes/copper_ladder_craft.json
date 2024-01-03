@@ -2,30 +2,12 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "pattern": [
-    "0 2",
-    "345",
-    "6 8"
+    "a a",
+    "aaa",
+    "a a"
   ],
   "key": {
-    "0": {
-      "item": "minecraft:copper_ingot"
-    },
-    "2": {
-      "item": "minecraft:copper_ingot"
-    },
-    "3": {
-      "item": "minecraft:copper_ingot"
-    },
-    "4": {
-      "item": "minecraft:copper_ingot"
-    },
-    "5": {
-      "item": "minecraft:copper_ingot"
-    },
-    "6": {
-      "item": "minecraft:copper_ingot"
-    },
-    "8": {
+    "a": {
       "item": "minecraft:copper_ingot"
     }
   },

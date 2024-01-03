@@ -1,0 +1,9 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "forest:block/charred_planks",
+    "top": "forest:block/charred_planks",
+    "side": "forest:block/charred_planks"
+  },
+  "render_type": "solid"
+}
