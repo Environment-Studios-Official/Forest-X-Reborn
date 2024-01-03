@@ -1,9 +1,9 @@
 {
   "parent": "forest:custom/ash_cover",
   "textures": {
-    "all": "forest:block/forest_ash_block",
-    "particle": "forest:block/forest_ash_block",
-    "missing": "forest:block/forest_ash_block"
+    "all": "forest:block/ash",
+    "particle": "forest:block/ash",
+    "missing": "forest:block/ash"
   },
   "render_type": "solid"
 }

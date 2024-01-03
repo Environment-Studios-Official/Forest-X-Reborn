@@ -5,5 +5,5 @@
     "forest:old_growth_oak_forest"
   ],
   "features": "forest:black_mulberry_tree_feature",
-  "step": "surface_structures"
+  "step": "vegetal_decoration"
 }

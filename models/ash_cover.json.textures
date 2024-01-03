@@ -2,7 +2,7 @@
   "mappings": {
     "default": {
       "map": {
-        "missing": "forest_ash_block"
+        "missing": "ash"
       },
       "name": "default"
     }

@@ -2,5 +2,5 @@
   "type": "forge:add_features",
   "biomes": "forest:eucalyptus_forest",
   "features": "forest:eucalyptus_tree_feature",
-  "step": "surface_structures"
+  "step": "vegetal_decoration"
 }

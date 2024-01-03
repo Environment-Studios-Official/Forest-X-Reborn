@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "forest:block/sapphire_ore",
-    "particle": "forest:block/sapphire_ore"
-  },
-  "render_type": "solid"
-}

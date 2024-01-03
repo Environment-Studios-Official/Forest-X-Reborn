@@ -10,8 +10,8 @@ on:
 env:                                              
   MINECRAFT_VERSION: 1.20.1                       
   JAVA_VERSION: 17      
-  VERSION: 1.4.4
-  RELEASE_NAME: Forest X Reborn 1.4.4
+  VERSION: 1.4.5
+  RELEASE_NAME: Forest X Reborn 1.4.5
 
 jobs:
   build:
